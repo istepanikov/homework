@@ -1,0 +1,97 @@
+
+
+body { /*Добавил отступ в во всем теге "body"*/
+margin: 1%;
+}
+.box1 {
+    background-color: rgb(58, 214, 201);
+    height: auto;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+h1 {
+margin: 1%; /*Добавил дополнительный отступ для загаловка*/
+}
+.leftimg {
+    float: left; /*Я использовал тег "float" для расположения текста по правой стороне картинки*/ 
+    margin: 5px 11px 14px 15px;
+}
+
+.invert img {
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+  
+  .invert img:hover {
+    -webkit-filter: invert(100%);
+  }
+
+.text-style {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 11px 14px 15px;
+}
+
+#sas {
+    inline-size: auto;
+    font-style: italic;
+}
+
+#sos {
+    font-size: 20px;
+}
+#inputcolor{
+    background: white; /* Цвет фона */
+}
+#ses {
+    width: 500px;	height: auto; /* Размеры */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+#sesa {
+}
+
+th {
+    background: white; /* Цвет фона */
+}
+
+input.atributs {
+    background: white;
+}
+
+select.atributs {
+    background: white;
+}
+
+option.atributs {
+    background: white;
+}
+h1.atributs {
+    background: #03f0039f;
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
+    border: 6px solid #7922CC;
+}
+select:hover {
+    background: red;
+}
+
+.atributs:hover {
+    background: lawngreen;
+}
+
+input:hover {
+    background: red;
+}
